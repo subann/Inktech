@@ -1,0 +1,369 @@
+@font-face {
+	font-family: Nanum Barun Gothic;
+	src: url(/web/20220817080649im_/http://kr.inktec.com/resources/font/NanumBarunGothicWeb/NanumBarunGothicWeb.eot#iefix) format("embedded-opentype"), url(/web/20220817080649im_/http://kr.inktec.com/resources/font/NanumBarunGothicWeb/NanumBarunGothicWeb.woff) format("woff"), url(/web/20220817080649im_/http://kr.inktec.com/resources/font/NanumBarunGothicWeb/NanumBarunGothicWeb.ttf) format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Nanum Barun Gothic;
+	src: url(/web/20220817080649im_/http://kr.inktec.com/resources/font/NanumBarunGothicWeb/NanumBarunGothicWebBold.eot#iefix) format("embedded-opentype"), url(/web/20220817080649im_/http://kr.inktec.com/resources/font/NanumBarunGothicWeb/NanumBarunGothicWebBold.woff) format("woff"), url(/web/20220817080649im_/http://kr.inktec.com/resources/font/NanumBarunGothicWeb/NanumBarunGothicWebBold.ttf) format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: Nanum Myeongjo;
+	src: url(/web/20220817080649im_/http://kr.inktec.com/resources/font/NanumMyeongjo/NanumMyeongjo-Regular.eot#iefix) format("embedded-opentype"), url(/web/20220817080649im_/http://kr.inktec.com/resources/font/NanumMyeongjo/NanumMyeongjo-Regular.woff2) format("woff2"), url(/web/20220817080649im_/http://kr.inktec.com/resources/font/NanumMyeongjo/NanumMyeongjo-Regular.woff) format("woff"), url(/web/20220817080649im_/http://kr.inktec.com/resources/font/NanumMyeongjo/NanumMyeongjo-Regular.ttf) format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Nanum Myeongjo;
+	src: url(/web/20220817080649im_/http://kr.inktec.com/resources/font/NanumMyeongjo/NanumMyeongjo-ExtraBold.eot#iefix) format("embedded-opentype"), url(/web/20220817080649im_/http://kr.inktec.com/resources/font/NanumMyeongjo/NanumMyeongjo-ExtraBold.woff2) format("woff2"), url(/web/20220817080649im_/http://kr.inktec.com/resources/font/NanumMyeongjo/NanumMyeongjo-ExtraBold.woff) format("woff"), url(/web/20220817080649im_/http://kr.inktec.com/resources/font/NanumMyeongjo/NanumMyeongjo-ExtraBold.ttf) format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+body {
+	color: rgb(114, 114, 114); font-family: Helvetica,"Nanum Barun Gothic",Dotum,sans-serif !important; font-size: 13px;
+}
+body p {
+	line-height: 1.583;
+}
+table td {
+	line-height: 1.583;
+}
+.header {
+	width: 100%;
+}
+.header_01 {
+	width: 970px; height: 62px;
+}
+.header_02 {
+	width: 100%; height: 40px; margin-bottom: 3px; border-bottom-color: rgb(38, 183, 250); border-bottom-width: 4px; border-bottom-style: solid; background-color: rgb(2, 100, 197);
+}
+.main_logo {
+	width: 220px;
+}
+.main_nav {
+	top: 36px; width: 625px; position: relative;
+}
+.main_menu {
+	top: 7px; width: 135px; text-align: right; position: relative;
+}
+.main_nav_list li a {
+	color: rgb(72, 72, 72) !important; font-size: 13px;
+}
+.main_nav_list li:hover {
+	color: rgb(2, 100, 197);
+}
+.main_nav_list li.hover_effect {
+	color: rgb(2, 100, 197);
+}
+.main_nav_list > li {
+	height: 30px; letter-spacing: -0.1px; font-weight: 300; display: block; position: relative;
+}
+.main_nav_list > li:hover {
+	color: rgb(25, 133, 216); letter-spacing: -0.1px; font-weight: 300; cursor: pointer;
+}
+.main_nav_list > li.hover_effect {
+	color: rgb(25, 133, 216); letter-spacing: -0.1px; font-weight: 300; cursor: pointer;
+}
+.main_nav_list > li:hover > ul {
+	z-index: 999; opacity: 1;
+}
+.main_nav_list > li.hover_effect > ul {
+	z-index: 999; opacity: 1;
+}
+.main_nav_list > li:hover > ul li {
+	padding: 0px; height: 39px; overflow: visible;
+}
+.main_nav_list > li.hover_effect > ul li {
+	padding: 0px; height: 39px; overflow: visible;
+}
+.main_nav_list > li > ul {
+	background: rgb(4, 106, 204); border-radius: 0px 0px 5px 5px; transition:opacity 1s 0.1s; left: 0px; top: 28px; position: absolute; opacity: 0; -webkit-border-radius: 0 0 5px 5px; -moz-border-radius: 0 0 5px 5px; -webkit-transition: opacity 1s ease .1s; -moz-transition: opacity 1s ease .1s; -o-transition: opacity 1s ease .1s;
+}
+.main_nav_list > li > ul > li {
+	padding: 0px; transition:height 0.8s 0.1s; height: 0px; overflow: hidden; -webkit-transition: height 0.8s ease .1s; -moz-transition: height 0.8s ease .1s; -o-transition: height 0.8s ease .1s;
+}
+.sub-menu li a {
+	margin: 0px; padding: 7px 10px; height: 25px; color: rgb(255, 255, 255) !important; line-height: 25px; display: block;
+}
+.sub-menu li:hover {
+	background: rgb(35, 146, 253); color: rgb(210, 210, 210);
+}
+.sub-menu li.hover_effect {
+	background: rgb(35, 146, 253); color: rgb(210, 210, 210);
+}
+.main_menu_list_01 {
+	margin-bottom: 3px; display: inline-block; -ms-zoom: 1;
+}
+.visual {
+	background: no-repeat black; width: 100%; position: relative;
+}
+.content_a {
+	margin: 20px 10px 0px 0px; width: 340px; height: 200px; float: left; position: relative;
+}
+.content_b {
+	margin: 20px 20px 0px 0px; width: 290px; height: 200px; float: left; position: relative;
+}
+.content_c {
+	margin: 20px 0px 0px; width: 307px; height: 200px; float: right; position: relative;
+}
+.content_d {
+	background: url("/web/20220817080649im_/http://kr.inktec.com/resources/img/00_index/movie_bk.jpg") no-repeat; margin: 20px 10px 0px 0px; width: 340px; height: 200px; float: left; position: relative;
+}
+.content_a > iframe {
+	top: 57px; width: 100%; display: block; position: absolute;
+}
+.content_b_list {
+	top: 57px; width: 100%; display: block; position: absolute;
+}
+.content_b_list li {
+	width: 100%; padding-bottom: 6px; margin-bottom: 6px; border-bottom-color: rgb(145, 145, 145); border-bottom-width: 1px; border-bottom-style: dotted; display: inline-block;
+}
+.content_b_list li a::before {
+	background: url("/web/20220817080649im_/http://kr.inktec.com/resources/img/00_index/icon_or.gif") 0% 0% / 100%; width: 3px; height: 3px; margin-right: 10px; margin-left: 10px; vertical-align: 10%; display: inline-block; content: "";
+}
+.content_b_list li a {
+	color: rgb(145, 145, 145);
+}
+.content_b_list > li > a:hover {
+	color: rgb(85, 170, 234); text-decoration: none;
+}
+.content_b_list li a:focus {
+	color: rgb(85, 170, 234); text-decoration: none;
+}
+.content_c_dl {
+	top: 50px; width: 100%; position: absolute;
+}
+.content_c_link {
+	top: 38px; width: 100%; position: absolute;
+}
+.content_c dl {
+	width: 100%;
+}
+.content_c dl:not(:last-child) {
+	border-bottom-color: rgb(145, 145, 145); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.content_c dl::after {
+	clear: both; display: block; content: "";
+}
+.content_c dt {
+	margin-right: 20px; float: left;
+}
+.content_c dd {
+	line-height: 20px;
+}
+.content_c a {
+	color: rgb(145, 145, 145);
+}
+.content_c a:hover {
+	color: rgb(145, 145, 145); text-decoration: none;
+}
+.content_d_list {
+	margin-top: 54px;
+}
+.content_d_list li {
+	line-height: 1.3;
+}
+.content_d_list a {
+	color: rgb(248, 133, 40);
+}
+.content_d_list li span {
+	vertical-align: top;
+}
+.content_d_dl dd {
+	line-height: 1.3; margin-left: 30px;
+}
+.footerArea_01 {
+	background: rgb(178, 178, 178); width: 100%; height: 40px; line-height: 33px; margin-top: 70px;
+}
+.footerArea_01_list {
+	width: 970px;
+}
+.footerArea_01_list li {
+	float: left;
+}
+.footerArea_01_list a {
+	color: rgb(255, 255, 255); font-size: 13px; margin-right: 20px;
+}
+.footerArea_02 {
+	width: 970px; margin-bottom: 25px;
+}
+.footerArea_02_01 p {
+	line-height: 1.4; font-size: 12px; white-space: pre;
+}
+.footerArea_02_02 span {
+	vertical-align: middle;
+}
+.location {
+	width: 100%; height: 55px; text-align: right; padding-top: 10px;
+}
+.location span {
+	font-size: 12px;
+}
+.main_title {
+	width: 100%; height: 53px; text-align: left;
+}
+.main_title span {
+	color: rgb(72, 72, 72); font-size: 28px;
+}
+.sub_title {
+	width: 100%; height: 73px; text-align: left;
+}
+.sub_title span {
+	color: rgb(85, 170, 234); line-height: 1.208; font-size: 21px;
+}
+.content_01 {
+	width: 100%;
+}
+.content_02 {
+	width: 100%;
+}
+.content_03 {
+	width: 100%;
+}
+.content_04 {
+	width: 100%;
+}
+.content_05 {
+	width: 100%;
+}
+.container {
+	margin: 0px auto; width: 970px;
+}
+.container_full {
+	width: 100%;
+}
+.container::after {
+	clear: both; display: block; content: "";
+}
+.side_left {
+	width: 220px; margin-top: 65px;
+}
+.contents {
+	width: 750px;
+}
+.side_left > span {
+	padding: 0px 0px 10px; width: 128px; color: rgb(72, 72, 72); font-size: 19px; font-weight: 500; margin-bottom: 5px; border-bottom-color: rgb(72, 72, 72); border-bottom-width: 2px; border-bottom-style: solid; display: inline-block; -ms-zoom: 1;
+}
+.side_menu_list > li {
+	margin-top: 15px;
+}
+.side_menu_list a {
+	color: rgb(72, 72, 72); font-size: 14px;
+}
+.side_menu_list a:hover {
+	color: rgb(85, 170, 234);
+}
+.side_menu_sub_list {
+	padding-left: 8px;
+}
+.side_menu_sub_list > li {
+	margin-top: 10px;
+}
+.side_menu_sub_list a {
+	color: rgb(145, 145, 145);
+}
+.side_menu_sub_list li::before {
+	content: " - ";
+}
+.banner_ebook {
+	margin-top: 40px;
+}
+.sub_title_text {
+	color: rgb(85, 170, 234); line-height: 1.208; font-size: 21px;
+}
+.main_title_text {
+	color: rgb(72, 72, 72); font-size: 28px;
+}
+.strapline_title_text {
+	line-height: 1.882; font-size: 17px; margin-bottom: 8px; 
+}
+.text_point {
+	color: rgb(85, 170, 234); line-height: 1.208; font-family: "Nanum Myeongjo"; font-size: 17px; font-weight: 700; margin-bottom: 5px;
+}
+.h_title_eng {
+	color: rgb(72, 72, 72) !important; font-size: 18px !important; margin-left: 10px; vertical-align: top;
+}
+.t_head {
+	text-align: center; color: rgb(72, 72, 72); font-size: 12px; vertical-align: middle;
+}
+.btn_basic {
+	border-width: 1px; border-style: solid; border-color: rgb(227, 227, 227) rgb(195, 195, 195) rgb(162, 162, 162); padding: 0.5em 0px; border-radius: 1px; width: 70px; text-align: center; color: rgb(72, 72, 72); overflow: hidden; font-size: 13px; font-weight: 700; margin-top: 10px; margin-right: 5px; margin-bottom: 6px; float: right; display: inline-block; white-space: nowrap; cursor: pointer; -ms-text-overflow: ellipsis; background-color: rgb(255, 255, 255); -webkit-border-radius: 1px; -moz-border-radius: 1px;
+}
+.btn_brand {
+	border: 1px solid rgb(211, 211, 211); border-image: none; vertical-align: middle; display: inline-block; background-color: rgb(255, 255, 255);
+}
+.badge {
+	padding: 2px 3px; text-align: center; color: rgb(255, 255, 255); line-height: 1; font-size: 12px; font-weight: 500; margin-right: 5px; vertical-align: middle; display: inline-block; white-space: nowrap; min-width: 10px; background-color: rgb(241, 150, 10);
+}
+#main-slider {
+	width: 100%; height: auto; position: relative; min-width: 970px;
+}
+#main-slider .carousel .item {
+	transition:opacity 500ms ease-in-out; left: 0px !important; top: 0px; width: 100%; height: auto; display: block !important; position: absolute; opacity: 0; -webkit-transition: opacity ease-in-out 500ms; -moz-transition: opacity ease-in-out 500ms; -o-transition: opacity ease-in-out 500ms;
+}
+#main-slider .carousel :first-child.item {
+	position: relative;
+}
+#main-slider .carousel .active.item {
+	transition:opacity 500ms ease-in-out; z-index: 1; opacity: 1; -webkit-transition: opacity ease-in-out 500ms; -moz-transition: opacity ease-in-out 500ms; -o-transition: opacity ease-in-out 500ms;
+}
+#main-slider .next {
+	border-radius: 4px; top: 50%; width: 40px; height: 40px; text-align: center; color: rgb(255, 255, 255); line-height: 40px; margin-top: -25px; display: inline-block; position: absolute; z-index: 5;
+}
+#main-slider .prev {
+	border-radius: 4px; top: 50%; width: 40px; height: 40px; text-align: center; color: rgb(255, 255, 255); line-height: 40px; margin-top: -25px; display: inline-block; position: absolute; z-index: 5;
+}
+#main-slider .prev {
+	left: 10px; display: none;
+}
+#main-slider .next {
+	right: 10px; display: none;
+}
+#main-slider .next:hover {
+	
+}
+#main-slider .prev:hover {
+	
+}
+#main-slider:hover .prev {
+	display: block;
+}
+#main-slider:hover .next {
+	display: block;
+}
+#main-slider .carousel-indicators li {
+	margin: 0px 8px 0px 0px; width: 12px; height: 12px; position: relative; background-color: rgb(255, 255, 255);
+}
+#main-slider .carousel-indicators .active {
+	margin: 0px 8px 0px 0px; border: 1px solid rgb(39, 182, 248); border-image: none; width: 12px; height: 12px; position: relative; background-color: rgb(39, 182, 248);
+}
+.carousel-div {
+	width: 100%; height: 420px;
+}
+.carousel-innerDiv {
+	width: 970px;
+}
+
+/*
+     FILE ARCHIVED ON 08:06:49 Aug 17, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:18:01 May 12, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 97.874
+  exclusion.robots: 0.101
+  exclusion.robots.policy: 0.089
+  RedisCDXSource: 0.743
+  esindex: 0.011
+  LoadShardBlock: 77.842 (3)
+  PetaboxLoader3.datanode: 157.048 (5)
+  load_resource: 235.826 (2)
+  PetaboxLoader3.resolve: 100.497 (2)
+*/
