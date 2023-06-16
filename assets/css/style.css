@@ -102,7 +102,7 @@ section { overflow: hidden; }*/
 
 .roomy-70 {
     padding-top: 100px;
-    padding-bottom: 70px;
+    padding-bottom: 70px ;
 }
 
 .roomy-60 {
@@ -944,14 +944,14 @@ Nav Menu style
     position: relative;
 }
 .home{
-    background: url(../images/background/main_pg.png) no-repeat top center;
+    background: url(../images/drop-of-water-578897_1280.jpg) no-repeat top center;
     background-size: 100%;
 }
 .service-banner{
     background: url(../images/background/services-bgT.jpg) no-repeat bottom center;
 }
 .model-banner{
-    background: url(../images/background/model-bg.jpg) no-repeat bottom center;
+    background: url(../images/background/bicer.png) no-repeat bottom center;
 }
 .contact-banner{
     background: url(../images/background/contact-bg.jpg) no-repeat bottom center;
@@ -960,7 +960,7 @@ Nav Menu style
     background: url(../images/background/saup_port.png) no-repeat bottom center;
 }
 .blog-banner{
-    background: url(../images/background/blog-bg.jpg) no-repeat bottom center;
+    background: url(../images/people-1979261_1280.jpg) no-repeat bottom center;
 }
 
 
@@ -1112,7 +1112,7 @@ About section style
 }
 
 .main-gallery .button.is-checked {
-    color: #89ff8d.about-banner;
+    color: #89ff8d about-banner;
     border-bottom: 1px dotted transparent;
 }
 
