@@ -944,7 +944,7 @@ Nav Menu style
     position: relative;
 }
 .home{
-    background: url(../images/drop-of-water-578897_1280.jpg) no-repeat top center;
+    background: url(assets\images\drop-of-water-578897_1280.jpg) no-repeat top center;
     background-size: 100%;
 }
 .service-banner{
@@ -1303,7 +1303,6 @@ Brand Section style
     opacity: 1;
 }
 .cbrand_item img.img_apple{
-    width:25%;
     padding: 10px;
 }
 
