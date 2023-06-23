@@ -944,7 +944,7 @@ Nav Menu style
     position: relative;
 }
 .home{
-    background: url(assets\images\drop-of-water-578897_1280.jpg) no-repeat top center;
+    background: url(../images/drop-of-water-578897_1280.jpg) no-repeat top center;
     background-size: 100%;
 }
 .service-banner{
