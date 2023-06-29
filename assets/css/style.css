@@ -29,15 +29,19 @@ Author URI: http://xpeedstudio.com
 html,
 body {
     background-color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     color: #2e2e2e;
     width: 100%;
     padding: 0;
     margin-left: 0;
     margin-right: 0;
     font-weight: 400;
+    line-height:1.4em;
+    color:#555;
+    box-sizing:border-box;
+    letter-spacing:-0.015rem;
     width:100%;
-    font-family: 'Roboto Condensed', S-CoreDream-3Light;
+    font-family:"S-Core","Noto Sans KR",'Nanum Gothic','나눔 고딕','Malgun Gothic','돋움','sans-serif';;
 }
 
 /*------------------------------------------------------------------*/
@@ -281,6 +285,16 @@ h6 {
     font-size: 1rem;
 }
 
+
+/* 
+    .b_title 
+*/
+
+.b_title_st1{font-size: 80px;font-weight: 600;}
+.b_title_st2{font-size: 65px;font-weight: 600;}
+.b_title_st3{font-size: 85px;font-weight: 600;}
+.s_title_st2{font-size:25px;font-weight:500}
+.s_title_st1{font-size:23px;font-weight:400}
 
 
 h1 span,
